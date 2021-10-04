@@ -1,12 +1,14 @@
-img {
-  border-radius: 40%;
-  height: "150";
-}
+
+body{
+
+  background-color: rgb(25, 73, 45);
+
+} 
 
 /* Style the sidebar - fixed full height */
 .sidebar {
   height: 100%;
-  width: 160px;
+  width: 300px;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -16,18 +18,44 @@ img {
   padding-top: 16px;
 }
 
+.close{
+  margin-left: 30px;
+ color: bisque;
+ font-weight: 600;
+
+}
+
+.sidebar-image{
+height: 200px;
+
+ }
 /* Style sidebar links */
 .sidebar a {
-  padding: 6px 8px 6px 16px;
+  padding: 10px 8px  16px;
   text-decoration: none;
   font-size: 20px;
   color: #818181;
   display: block;
+ 
+
+  
 }
+
+.sidebar ul  {
+
+text-decoration: none;
+list-style-type: none;
+
+}
+
+
+
 
 /* Style links on mouse-over */
 .sidebar a:hover {
+
   color: #f1f1f1;
+  background-color:rgb(53, 163, 99);  
 }
 
 /* Style the main content */

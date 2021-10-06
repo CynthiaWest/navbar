@@ -7,6 +7,7 @@ body{
 
 /* Style the sidebar - fixed full height */
 .sidebar {
+  
   height: 100%;
   width: 300px;
   position: fixed;
@@ -18,17 +19,39 @@ body{
   padding-top: 16px;
 }
 
-.close{
-  margin-left: 30px;
- color: bisque;
- font-weight: 600;
+.close {
+  position: absolute;
 
+  width: 32px;
+  height: 32px;
+  opacity: 0.3;
+  color: #fff;
+  font-weight: 300;
+  font-family: Arial, sans-serif;
+  margin-left: 30px;
+  font-size: 36px;
+  transform: rotate(1deg);
 }
 
 .sidebar-image{
-height: 200px;
+height: 300px;
+
 
  }
+
+
+
+.sidebar-image img{
+  height: 200px;
+  width:200px;
+  margin: 50px;
+  border-radius: 50%;
+  object-position: right;
+  object-fit: cover;
+   }
+  
+
+
 /* Style sidebar links */
 .sidebar a {
   padding: 10px 8px  16px;
@@ -43,8 +66,6 @@ height: 200px;
 
 .sidebar ul  {
 
-text-decoration: none;
-list-style-type: none;
 
 }
 

@@ -6,21 +6,21 @@ img{
 
 body{
 
-  background-color: rgb(25, 73, 45);
+  background-color: brown;
 
 } 
 
 /* Style the sidebar - fixed full height */
 .sidebar {
   
-  height: 100%;
+ 
   width: 300px;
-  position: fixed;
-  z-index: 1;
+  
+  
   top: 0;
   left: 0;
   background-color: #111;
-  overflow-x: hidden;
+
   padding-top: 16px;
 }
 
@@ -82,20 +82,38 @@ width: 300px;
 background-color:white;
 border-radius: 10px;
 padding: 20px;
-margin-left: auto;
 box-shadow:5px 10px rgba(128, 129, 131, 0.733) ;
 
 }
 
 .profile-card img{
+  height: 100px;
+  width:100px;
+  margin: 10px;
+  border-radius: 50%;
+  object-position: top;
+  object-fit:inherit;
+  float: left;
+  margin-top: -20px;
+}
 
-  
+
+.profile-card1{
+  height: 200px;
+  width: 300px;
+  background-color:white;
+  border-radius: 10px;
+  padding: 20px;
+  margin-left:auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  box-shadow:5px 10px rgba(128, 129, 131, 0.733) ;
 }
 /* Style links on mouse-over */
 .sidebar a:hover {
 
   color: #f1f1f1;
-  background-color:rgb(53, 163, 99);  
+background-color:blue;
 }
 
 /* Style the main content */
